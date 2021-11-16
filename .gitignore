@@ -1,0 +1,5 @@
+#node dependcies
+node_modules
+
+#config file
+/config
