@@ -1,8 +1,8 @@
 import React from "react";
-import '../../utils/css/discuss.css';
 import Categories from "../Categories";
 import Posts from "../Posts";
 import { Grid } from "@mui/material";
+import '../../utils/css/discuss.css'
 
 const Discuss = () => {
     return ( 

@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
 .body {
   margin: 0;
   padding: 0;
@@ -7,10 +6,12 @@
 }
 
 .body {
-  display: grid;
-  height: 100% !important;
+  display: flex;
+  flex-direction: column;
+  height: 110vh !important;
   width: 100%;
-  background-image: url("../img/background.gif") !important;
+  place-items: center;
+  background-image: url("../img/bg.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -21,4 +22,5 @@
   width: 92%;
   margin-top: 80px;
   color: 'white';
+  padding: 0 100px;
 }

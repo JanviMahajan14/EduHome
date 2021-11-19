@@ -30,7 +30,7 @@ const Categories = () => {
     const classes = useStyle();
     return ( 
         <div>
-            <Button variant="contained" className={classes.create}><Typography className={classes.button}>Create Post</Typography></Button>
+            <Button variant="contained" className={classes.create}><Typography className={classes.button}><a href="/createview" style={{ color:'white' }}>Create Post</a></Typography></Button>
             <TableContainer>
             <Table className={classes.table}>
                 <TableHead>
