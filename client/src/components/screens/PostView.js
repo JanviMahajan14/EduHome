@@ -3,15 +3,16 @@ import { useParams } from 'react-router-dom';
 import { makeStyles } from '@mui/styles'
 import baseUrl from '../../utils/baseUrl';
 import Interweave from 'interweave';
-import { ModeEditOutline, Delete } from '@mui/icons-material/';
 import '../../utils/css/PostView.css'
 import { Box, Typography } from '@mui/material/';
 
 const useStyle = makeStyles({
     image: {
-        width: '100%',
-        height: '50vh',
-        objectFit: 'cover'
+        height: '40vh',
+        objectFit: 'cover',
+        display: 'block',
+        marginLeft: 'auto',
+        marginRight: 'auto',
     },
     icons: {
         padding: '25px',
@@ -28,7 +29,7 @@ const useStyle = makeStyles({
         fontSize: '38',
         fontWeight: '600',
         textAlign: 'center',
-        margin: '60 0 10 0'
+        margin: '60 0 20 0'
     },
     subheading: {
         display: 'flex',
@@ -63,12 +64,8 @@ const PostView = () => {
     return ( 
         <div className="body">
             <div className='content'>
-                <img src={post.picture || url} alt="img" className={classes.image} />
                 <h1 className={classes.heading}>{post.title}</h1>
-                <Box className={classes.icons}>
-                    <ModeEditOutline color="primary" className={classes.icon} fontSize="large"/>
-                    <Delete color="error" className={classes.icon} fontSize="large"/>
-                </Box>
+                <img src={post.picture || url} alt="img" className={classes.image} />
                 <Box className={classes.subheading}>
                     <Typography>Author: {post.userName}</Typography>
                     <Typography style={{ marginLeft: 'auto' }}>Date: {post.createdDate}</Typography>

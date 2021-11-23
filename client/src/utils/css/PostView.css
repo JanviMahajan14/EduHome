@@ -11,7 +11,7 @@
   height: 200vh !important;
   width: 100%;
   place-items: center;
-  background-image: url("../img/bg.svg");
+  background-image: url("../img/bg.svg") !important;
   background-size: cover;
   background-repeat: no-repeat;
 }

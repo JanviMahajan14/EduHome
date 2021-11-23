@@ -44,9 +44,10 @@ const Categories = () => {
                 </TableHead>
                 <TableBody>
                     <TableRow><TableCell className={classes.subject}>Data Structures</TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}>Dynamic Programming</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Wireless Networks</TableCell></TableRow>
                     <TableRow><TableCell className={classes.subject}>Operating Systems</TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}>Binary Search</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Cyber Security</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Computer Networks</TableCell></TableRow>
                 </TableBody>
             </Table>
             </TableContainer>

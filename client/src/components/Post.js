@@ -49,7 +49,6 @@ const Post = ({ post }) => {
 
         <Box className={classes.container} style={{width:'inherit', overflow:'hidden'}}>
             <img src={url} alt="wrapper" className={classes.image}/>
-            <Typography className={classes.text}>Music</Typography>
             <Typography className={classes.heading}>{post.title}</Typography>
             <Typography className={classes.text}>Author : {post.userName}</Typography>
             <Interweave className={classes.details} content={post.description}/>
