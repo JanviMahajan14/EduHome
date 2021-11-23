@@ -1,4 +1,5 @@
 import { makeStyles } from '@mui/styles';
+import { Link } from 'react-router-dom'
 import { Button, Table, TableHead, TableRow, TableCell, TableBody, Typography, TableContainer } from "@mui/material";
 
 const useStyle = makeStyles({
@@ -22,8 +23,11 @@ const useStyle = makeStyles({
     },
     button: {
         fontWeight: 600
-    }
-
+    },
+    link: {
+        color: 'inherit',
+        textDecoration: 'none'
+    },
 })
 
 const Categories = () => {
@@ -35,14 +39,14 @@ const Categories = () => {
             <Table className={classes.table}>
                 <TableHead>
                     <TableRow>
-                        <TableCell className={classes.heading}>All categories <i class="fas fa-arrow-circle-right"></i></TableCell>
+                        <TableCell className={classes.heading}><Link className={classes.link}to='/discuss/'>All categories </Link> <i class="fas fa-arrow-circle-right"></i></TableCell>
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    <TableRow><TableCell className={classes.subject}>Data Structures</TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}>Dynamic Programming</TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}>Operating Systems</TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}>Binary Search</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=datastructure'>Data Structures</Link></TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=dp'>Dynamic Programming</Link></TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=operatingsystem'>Operating Systems</Link></TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=binarysearch'>Binary Search</Link></TableCell></TableRow>
                 </TableBody>
             </Table>
             </TableContainer>

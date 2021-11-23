@@ -8,7 +8,7 @@
 .body {
   display: flex;
   flex-direction: column;
-  height: 110vh !important;
+  height: 200vh !important;
   width: 100%;
   place-items: center;
   background-image: url("../img/bg.svg");

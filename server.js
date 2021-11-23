@@ -23,6 +23,7 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(require("./routes/feedback"));
 app.use(require("./routes/auth"));
+app.use(require("./routes/post"));
 
 app.listen(PORT, () => {
     console.log("Server is running on ", PORT);

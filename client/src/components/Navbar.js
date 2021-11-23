@@ -39,9 +39,6 @@ const Navbar = () => {
                     <div className="ms-auto">
                       <ul id="nav" className="navbar-nav ms-auto">
                         <li className="nav-item">
-                          <a className="page-scroll" href="/">Add Post</a>
-                        </li>
-                        <li className="nav-item">
                           <a className="page-scroll" href="/discuss">Discuss</a>
                         </li>
                         <li className="nav-item">

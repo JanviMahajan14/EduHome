@@ -9,8 +9,8 @@ const Discuss = () => {
         <div className="body">
             <div className="content">
                 <Grid container>
-                    <Grid item lg={2} xs={12} sm={12}><Categories className="categories" /></Grid>
-                    <Grid item container lg={10} xs={10} sm={10} style={{ justifyContent: 'center'}}className="posts"><Posts/></Grid>
+                    <Grid item lg={2} xs={12} sm={2}><Categories className="categories" /></Grid>
+                    <Grid container item xs={12} sm={10} lg={10} style={{ justifyContent: 'center'}}><Posts /></Grid>
                 </Grid>
             </div>
         </div>
