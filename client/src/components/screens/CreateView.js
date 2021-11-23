@@ -55,7 +55,7 @@ const CreateView = () => {
                     throw new Error(data.error.message);
                 }
                 setImageURL(data.url)
-                console.log(data.url)
+                post.picture = data.url
             }
         }
         catch (error) {

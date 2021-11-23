@@ -43,10 +43,10 @@ const Categories = () => {
                     </TableRow>
                 </TableHead>
                 <TableBody>
-                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=datastructure'>Data Structures</Link></TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=dp'>Dynamic Programming</Link></TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=operatingsystem'>Operating Systems</Link></TableCell></TableRow>
-                    <TableRow><TableCell className={classes.subject}><Link className={classes.link}to='/discuss/?category=binarysearch'>Binary Search</Link></TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Data Structures</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Dynamic Programming</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Operating Systems</TableCell></TableRow>
+                    <TableRow><TableCell className={classes.subject}>Binary Search</TableCell></TableRow>
                 </TableBody>
             </Table>
             </TableContainer>

@@ -7,7 +7,6 @@ import Post from './Post';
 const Posts = () => {
     const [posts, setPosts] = useState([])
 
-
      useEffect(() => {
         async function fetchData() {
             const res = await fetch(`${baseUrl}/getAllPosts`, {
