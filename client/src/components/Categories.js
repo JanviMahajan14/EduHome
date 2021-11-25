@@ -32,9 +32,13 @@ const useStyle = makeStyles({
 
 const Categories = () => {
     const classes = useStyle();
+    const user = JSON.parse(localStorage.getItem("user"));
     return ( 
         <div>
             <Button variant="contained" className={classes.create}><Typography className={classes.button}><a href="/createview" style={{ color:'white' }}>Create Post</a></Typography></Button>
+            {user.role === "teacher" ? 
+                <Button variant="contained" className={classes.create}><Typography className={classes.button}><a href="/addnotes" style={{ color:'white' }}>Add Notes</a></Typography></Button>
+            : <></>}
             <TableContainer>
             <Table className={classes.table}>
                 <TableHead>

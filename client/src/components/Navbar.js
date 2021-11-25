@@ -4,7 +4,6 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
     const navigate = useNavigate();
     const user = JSON.parse(localStorage.getItem("user"));
-    console.log(user);
     const userState = localStorage.getItem("user") ? true : false;
     return ( 
       userState
@@ -38,6 +37,9 @@ const Navbar = () => {
                   >
                     <div className="ms-auto">
                       <ul id="nav" className="navbar-nav ms-auto">
+                        <li className="nav-item">
+                          <a className="page-scroll" href="/notes">Notes</a>
+                        </li>
                         <li className="nav-item">
                           <a className="page-scroll" href="/discuss">Discuss</a>
                         </li>

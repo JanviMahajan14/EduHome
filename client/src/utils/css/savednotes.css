@@ -1,0 +1,30 @@
+.saved-notes {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.saved-notes {
+  display: flex;
+  flex-direction: column;
+  height: 200vh !important;
+  width: 100%;
+  place-items: center;
+  background-image: url("../img/bg.svg") !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  align-items: center;
+}
+
+.notes-container {
+  margin-top: 100px;
+  color: 'white';
+  border: '3px solid red';
+}
+
+.notes-table {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+}
