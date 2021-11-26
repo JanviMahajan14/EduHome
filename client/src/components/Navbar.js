@@ -105,9 +105,6 @@ const Navbar = () => {
                           <a className="page-scroll active" href="/#home">Home</a>
                         </li>
                         <li className="nav-item">
-                          <a className="page-scroll" href="/#features">Features</a>
-                        </li>
-                        <li className="nav-item">
                           <a className="page-scroll" href="/#service">Services</a>
                         </li>
                         <li className="nav-item">

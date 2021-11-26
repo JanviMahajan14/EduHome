@@ -62,126 +62,6 @@ const Home = () => {
     </section>
     {/* <!-- ========================= hero-section end ========================= --> */}
 
-    {/* <!-- ========================= feature-section start ========================= --> */}
-    <section id="features" className="feature-section">
-      <div className="container">
-        <div className="row justify-content-center">
-          <div className="col-xxl-6 col-xl-7 col-lg-8 col-md-11">
-            <div className="section-title text-center mb-60">
-              <h2>
-                Modern design <br className="d-block" />
-                with EssNameential Features
-              </h2>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-lg-4 col-md-6">
-            <div className="single-feature">
-              <div className="feature-icon color-1">
-                <i className="lni lni-display"></i>
-              </div>
-              <div className="feature-content">
-                <h4>One-on-One meetings</h4>
-                <p>
-                  Connect with your loved ones with Unite. Peer-to-peer
-                  connection between two users.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-feature">
-              <div className="feature-icon color-2">
-                <i className="lni lni-customer"></i>
-              </div>
-              <div className="feature-content">
-                <h4>Active Customer Feedback</h4>
-                <p>
-                  Get immediate feedback from customers with
-                  <a href="#footer">Feeback forms</a>, supporting the concept of
-                  Agile.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-feature">
-              <div className="feature-icon color-3">
-                <i className="lni lni-users"></i>
-              </div>
-              <div className="feature-content">
-                <h4>Multiple Room Connections with Screen sharing options</h4>
-                <p>
-                  Join and connect with as many friends that you wish to
-                  connect!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-feature">
-              <div className="feature-icon color-2">
-                <i className="lni lni-google"></i>
-              </div>
-              <div className="feature-content">
-                <h4>Google Authentication</h4>
-                <p>
-                  Sign in with Google and connect with your loved ones, just by
-                  one click!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div className="col-lg-4 col-md-6">
-            <div className="single-feature">
-              <div className="feature-icon color-3">
-                <i className="lni lni-bubble"></i>
-              </div>
-              <div className="feature-content">
-                <h4>Persistent Text chat</h4>
-                <p>
-                  Join chat rooms and continue conversation before, after and
-                  during the meet!
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-6">
-            <div className="single-feature">
-              <div className="feature-icon color-1">
-                <i className="lni lni-calendar"></i>
-              </div>
-              <div className="feature-content">
-                <h4>Schedule Meetings</h4>
-                <p>
-                  Schedule your meetings with Google Calendar API, and invite
-                  people to join!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div
-            className="col-lg-4 col-md-6"
-            style={{display: 'block', marginLeft: 'auto', marginRight: 'auto'}}
-          >
-            <div className="single-feature">
-              <div className="feature-icon color-2">
-                <i className="lni lni-rocket"></i>
-              </div>
-              <div className="feature-content">
-                <h4>AI Bot</h4>
-                <p>Keep your health in check with posture bot!</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* <!-- ========================= feature-section end ========================= --> */}
-
     {/* <!-- ========================= service-section start ========================= --> */}
     <section id="service" className="service-section img-bg pt-100 pb-100 mt-150">
       <div className="container">
@@ -197,30 +77,30 @@ const Home = () => {
           <div className="col-xl-3 col-md-6">
             <div className="single-service">
               <div className="icon color-1">
-                <i className="lni lni-display-alt"></i>
+                <i class="fa fa-pencil-square" aria-hidden="true"></i>
               </div>
               <div className="content">
-                <h3>Video calling</h3>
+                <h3>Write Articles</h3>
               </div>
             </div>
           </div>
           <div className="col-xl-3 col-md-6">
             <div className="single-service">
               <div className="icon color-2">
-                <i className="lni lni-bubble"></i>
+                 <i className="lni lni-customer"></i>
               </div>
               <div className="content">
-                <h3>Persistent Text Chat</h3>
+                <h3>Active Customer Support</h3>
               </div>
             </div>
           </div>
           <div className="col-xl-3 col-md-6">
             <div className="single-service">
               <div className="icon color-3">
-                <i className="lni lni-calendar"></i>
+                <i class="fa fa-sticky-note" aria-hidden="true"></i>
               </div>
               <div className="content">
-                <h3>Schedule Meet</h3>
+                <h3>Share Notes</h3>
               </div>
             </div>
           </div>
@@ -230,7 +110,7 @@ const Home = () => {
                 <i className="lni lni-rocket"></i>
               </div>
               <div className="content">
-                <h3>AI Bot</h3>
+                <h3>Download Notes</h3>
               </div>
             </div>
           </div>
@@ -278,7 +158,6 @@ const Home = () => {
             <div className="footer-menu">
               <ul>
                 <li><a href="#home">Home</a></li>
-                <li><a href="#features">Features</a></li>
                 <li><a href="#service">Service</a></li>
               </ul>
             </div>
